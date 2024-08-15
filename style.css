@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto, sans-serif;
-    min-height: 100vh;
+    min-height: 200vh;
 }
 /*.header-container, .signup, .image-section, .quote, .action {
     display: flex;
@@ -23,6 +23,7 @@ body {
     align-items: center;
     background-color: #1F2937;
     flex: 1;
+
     
 }
 
@@ -65,6 +66,9 @@ body {
     flex: 1;
 }
 
+.quote-text, .signup-container{
+    margin: 50px 200px;
+}
 
 a {
     color: black;
