@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto, sans-serif;
+    min-height: 100vh;
 }
 /*.header-container, .signup, .image-section, .quote, .action {
     display: flex;
@@ -12,18 +13,23 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
+    flex: 0.3;
+
 }
 
 .signup {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #1F2937;
+    flex: 1;
     
 }
 
 .image-section {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .Random {
@@ -56,6 +62,7 @@ body {
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
+    flex: 1;
 }
 
 
@@ -73,7 +80,16 @@ ul{
 .action {
     display: flex;
     justify-content: center;
+    background-color: #F9FAF8;
+    flex: 1;
+}
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #3882F6;
+    margin: 36px;
 }
 
 .footer {
@@ -81,6 +97,7 @@ ul{
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
+    flex: 0.3;
 }
 
 a {
