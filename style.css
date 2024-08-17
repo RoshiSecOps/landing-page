@@ -14,9 +14,17 @@ body {
     justify-content: space-between;
     background-color: #1F2937;
     flex: 0.3;
-    padding: 24px;
 }
 
+.header-logo {
+    padding-left: 24px;
+    padding-top: 24px;;
+}
+
+.links {
+    padding-right: 24px;
+    padding-top: 24px;
+}
 .signup {
     display: flex;
     flex-direction: column;
@@ -69,13 +77,8 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 32px;
-    gap: 58px;
-}
-.image-section ul{
-    display: flex;
-    justify-content: center;
-    gap: 32px;
-    flex: 1;
+    margin-bottom: 16px;
+    gap: 115px;
 }
 
 .quote {
@@ -103,10 +106,20 @@ a {
     text-decoration: none; /* no underline */
   }
 
-ul{
-    list-style-type: none; /* Remove bullets */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margins */
+.texts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex: 1;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+  
+.text {
+    text-align: center;
   }
 
 .action {
@@ -165,5 +178,10 @@ button {
 .hero-secondary {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+img {
+    width: 120px;
+    height: 120px;
 }
 
